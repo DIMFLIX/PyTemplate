@@ -1,0 +1,34 @@
+[project]
+name = "pytemplate"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+authors = [
+  {name = "<username>", email = "mail@example.com"},
+]
+maintainers = [
+  {name = "<username>", email = "mail@example.com"}
+]
+keywords = ["project-template", "python", "uv"]
+readme = "README.md"
+license = "GPL-3.0-or-later"
+license-files = ["LICEN[CS]E*"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/<username>/<repository-name>"
+Documentation = "https://github.com/<username>/<repository-name>/wiki"
+Repository = "https://github.com/<username>/<repository-name>.git"
+"Bug Tracker" = "https://github.com/<username>/<repository-name>/issues"
+Changelog = "https://github.com/<username>/<repository-name>/blob/master/CHANGELOG.md"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+
+[dependency-groups]
+dev = [
+    "detect-secrets>=1.5.0",
+    "pre-commit>=4.1.0",
+    "pytest>=8.3.4",
+    "ruff>=0.9.6",
+]

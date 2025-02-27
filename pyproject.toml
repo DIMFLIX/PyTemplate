@@ -32,3 +32,8 @@ dev = [
     "pytest>=8.3.4",
     "ruff>=0.9.6",
 ]
+
+[tool.bandit]
+exclude_dirs = ["tests", "docs"]
+skips = ["B404", "B603"]
+tests = ["B102", "B101", "B301"]

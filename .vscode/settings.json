@@ -46,9 +46,9 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "git.showActionButton": {
-        "commit": false,
-        "publish": false,
-        "sync": false
+        "commit": true,
+        "publish": true,
+        "sync": true
     },
     "github.copilot.enable": {
         "*": true,

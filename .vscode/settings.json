@@ -23,6 +23,9 @@
     },
     // Editor settings
     "ruff.importStrategy": "useBundled",
+    "ruff.lint.args": [
+        "--ignore=F401"
+    ],
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,

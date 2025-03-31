@@ -58,7 +58,6 @@
         "yaml": false
     },
     // Explorer settings
-    "explorer.excludeGitIgnore": true,
     "explorer.autoReveal": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,

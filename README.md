@@ -22,9 +22,14 @@ cd PyTemplate
 - `pyproject.toml` - имя проекта, версия, описание
 - Обновите `LICENSE` при необходимости
 
-### 3. Инициализация крючка detect-secrets
+### 3. Инициализация pre-commit
 ```bash
-detect-secrets scan > .secrets.baseline
+uvx pre-commit install
+```
+
+### 4. Инициализация крючка detect-secrets
+```bash
+uvx detect-secrets scan > .secrets.baseline
 ```
 
 ## 🛠 Инструменты разработки

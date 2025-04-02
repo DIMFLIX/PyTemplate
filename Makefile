@@ -10,8 +10,6 @@ fmt:  ## Run autoformatting and linting
 clean:  ## Clean up caches and build artifacts
 	@rm -rf .ruff_cache/
 	@rm -rf .venv/
-	@rm -rf ./src/mewline/dist
-	@rm -rf ./src/mewline.egg-info
 	@find . -type f -name '*.py[co]' -delete -or -type d -name __pycache__ -delete
 
 .PHONY: help

@@ -58,6 +58,8 @@ uvx detect-secrets scan > .secrets.baseline
 | `ruff`                        | Линтинг + форматирование кода                           | Автофикс, исключение `migrations`                                |
 | **autoflake**                 |                                                         |                                                                  |
 | `autoflake`                   | Удаление неиспользуемых импортов и переменных           | Автоматическое исправление                                       |
+| **vulture**                   |                                                         |                                                                  |
+| `vulture`                     | Удаление "мёртвого кода"                                |                                                                  |
 | **check-jsonschema**          |                                                         |                                                                  |
 | `check-github-workflows`      | Валидация GitHub Actions workflow-файлов                |                                                                  |
 | `check-dependabot`            | Проверка конфигурации Dependabot                        |                                                                  |

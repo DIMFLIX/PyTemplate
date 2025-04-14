@@ -37,3 +37,9 @@ dev = [
 exclude_dirs = ["tests", "docs"]
 skips = ["B404", "B603"]
 tests = ["B102", "B101", "B301"]
+
+[tool.vulture]
+ignore_decorators = []
+paths = ["src", "whitelist-vulture"]
+sort_by_size = true
+ignore_names = []
